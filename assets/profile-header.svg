@@ -1,0 +1,96 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0d1117" />
+      <stop offset="0.52" stop-color="#101722" />
+      <stop offset="1" stop-color="#0f1a2b" />
+    </linearGradient>
+
+    <linearGradient id="wash" x1="32" y1="32" x2="1120" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00ff9d" stop-opacity="0.18" />
+      <stop offset="0.5" stop-color="#00ff9d" stop-opacity="0.04" />
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0.10" />
+    </linearGradient>
+
+    <linearGradient id="terminalBody" x1="0" y1="0" x2="0" y2="268" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0d131b" />
+      <stop offset="1" stop-color="#0a0f16" />
+    </linearGradient>
+
+    <linearGradient id="terminalChrome" x1="0" y1="0" x2="0" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1c2431" />
+      <stop offset="1" stop-color="#1a212d" />
+    </linearGradient>
+    <linearGradient id="pillGreen" x1="64" y1="290" x2="260" y2="324" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b241c" />
+      <stop offset="1" stop-color="#14342a" />
+    </linearGradient>
+    <linearGradient id="pillBlue" x1="274" y1="290" x2="482" y2="324" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102334" />
+      <stop offset="1" stop-color="#193249" />
+    </linearGradient>
+    <linearGradient id="pillSlate" x1="496" y1="290" x2="712" y2="324" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#181d25" />
+      <stop offset="1" stop-color="#222936" />
+    </linearGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" stroke="#ffffff" stroke-opacity="0.055" stroke-width="1" />
+    </pattern>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="panelShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#02040a" flood-opacity="0.55" />
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" rx="24" fill="url(#bg)" />
+  <rect width="1280" height="360" rx="24" fill="url(#grid)" />
+  <rect width="1280" height="360" rx="24" fill="url(#wash)" />
+
+  <circle cx="1018" cy="66" r="126" fill="#00ff9d" fill-opacity="0.06" filter="url(#softGlow)" />
+  <circle cx="1120" cy="282" r="112" fill="#58a6ff" fill-opacity="0.08" filter="url(#softGlow)" />
+
+  <rect x="64" y="50" width="140" height="30" rx="15" fill="#00ff9d" fill-opacity="0.08" stroke="#00ff9d" stroke-opacity="0.35" />
+  <text x="134" y="70" text-anchor="middle" fill="#00ff9d" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">SYSTEMS / AI</text>
+
+  <text x="64" y="134" fill="#F7F8FA" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="1.2">ALBERTO</text>
+  <text x="64" y="192" fill="#00ff9d" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="1.2">MEDINA</text>
+
+  <text x="64" y="228" fill="#D3D9E1" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600">FULL-STACK DEVELOPER / AUTOMATION ENGINEER / AI WORKFLOW BUILDER</text>
+  <text x="64" y="262" fill="#8B949E" font-family="'Segoe UI', Arial, sans-serif" font-size="18">logic first. built to be used.</text>
+
+  <rect x="64" y="290" width="196" height="34" rx="17" fill="url(#pillGreen)" stroke="#00ff9d" stroke-opacity="0.24" />
+  <text x="162" y="312" text-anchor="middle" fill="#96FFD0" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.1">PYTHON / REACT / UNITY</text>
+
+  <rect x="274" y="290" width="208" height="34" rx="17" fill="url(#pillBlue)" stroke="#58a6ff" stroke-opacity="0.24" />
+  <text x="378" y="312" text-anchor="middle" fill="#BFDAFF" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.1">PRODUCTS / AUTOMATION</text>
+
+  <rect x="496" y="290" width="216" height="34" rx="17" fill="url(#pillSlate)" stroke="#8B949E" stroke-opacity="0.20" />
+  <text x="604" y="312" text-anchor="middle" fill="#D7DEE7" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.1">REMOTE / SPAIN / GLOBAL</text>
+
+  <g transform="translate(748 46)" filter="url(#panelShadow)">
+    <rect x="0" y="12" width="484" height="256" rx="22" fill="url(#terminalBody)" />
+    <rect x="0" y="0" width="484" height="42" rx="22" fill="url(#terminalChrome)" />
+    <path d="M0 22C0 10.954 8.954 2 20 2H464C475.046 2 484 10.954 484 22V42H0V22Z" fill="url(#terminalChrome)" />
+    <path d="M0 42.5H484" stroke="#2A3340" />
+    <circle cx="30" cy="22" r="6" fill="#FF5F56" />
+    <circle cx="52" cy="22" r="6" fill="#FFBD2E" />
+    <circle cx="74" cy="22" r="6" fill="#27C93F" />
+    <text x="242" y="27" text-anchor="middle" fill="#9AA4B2" font-family="'Cascadia Code', Consolas, monospace" font-size="13">portfolio-terminal</text>
+
+    <text x="28" y="84" fill="#00ff9d" font-family="'Cascadia Code', Consolas, monospace" font-size="16">&gt; systems online</text>
+    <text x="28" y="118" fill="#C7D0DB" font-family="'Cascadia Code', Consolas, monospace" font-size="15">&gt; portfolio: amedina.dev</text>
+    <text x="28" y="152" fill="#C7D0DB" font-family="'Cascadia Code', Consolas, monospace" font-size="15">&gt; focus: products, automation, ai</text>
+    <text x="28" y="186" fill="#58A6FF" font-family="'Cascadia Code', Consolas, monospace" font-size="15">&gt; handle: @Albjav12345</text>
+    <text x="28" y="220" fill="#C7D0DB" font-family="'Cascadia Code', Consolas, monospace" font-size="15">&gt; status: available for freelance</text>
+    <text x="28" y="250" fill="#9AA4B2" font-family="'Cascadia Code', Consolas, monospace" font-size="15">$ build --useful --reliable --polished</text>
+  </g>
+</svg>
