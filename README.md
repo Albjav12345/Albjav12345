@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Alberto Medina profile header" width="100%" />
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/profile-header-mobile.svg" />
+    <img src="./assets/profile-header.svg" alt="Alberto Medina profile header" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
@@ -30,7 +33,10 @@
 </p>
 
 <p>
-  <img src="./assets/section-system-profile.svg" alt="System Profile section" width="100%" />
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/section-system-profile-mobile.svg" />
+    <img src="./assets/section-system-profile.svg" alt="System Profile section" width="100%" />
+  </picture>
 </p>
 
 > `origin` Unity + C#  
@@ -43,7 +49,10 @@ I started building in Unity and C#, which taught me to care about how systems fe
 That same mindset now drives my work in full-stack development, automation, and AI-assisted tooling. I like building systems that are useful in the real world, understandable as they grow, and polished enough that people actually want to use them.
 
 <p>
-  <img src="./assets/section-build-surface.svg" alt="Build Surface section" width="100%" />
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/section-build-surface-mobile.svg" />
+    <img src="./assets/section-build-surface.svg" alt="Build Surface section" width="100%" />
+  </picture>
 </p>
 
 - `full-stack products` React, Vite, Node.js, Python, and modern backend integrations
@@ -52,7 +61,10 @@ That same mindset now drives my work in full-stack development, automation, and 
 - `interactive systems` polished web interfaces, product-style UX, and custom Unity tooling
 
 <p>
-  <img src="./assets/section-selected-systems.svg" alt="Selected Systems section" width="100%" />
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/section-selected-systems-mobile.svg" />
+    <img src="./assets/section-selected-systems.svg" alt="Selected Systems section" width="100%" />
+  </picture>
 </p>
 
 **[amedina.dev](https://amedina.dev)** / [source](https://github.com/Albjav12345/amedina-dev)  
@@ -72,7 +84,10 @@ Compact Unity build that mixes gameplay, API usage, Firebase integration, and pe
 Some of the work I want to be hired for is presented as case-study context in my portfolio rather than as a public repository.
 
 <p>
-  <img src="./assets/section-engineering-style.svg" alt="Engineering Style section" width="100%" />
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/section-engineering-style-mobile.svg" />
+    <img src="./assets/section-engineering-style.svg" alt="Engineering Style section" width="100%" />
+  </picture>
 </p>
 
 > build for real use  
@@ -81,7 +96,10 @@ Some of the work I want to be hired for is presented as case-study context in my
 > prefer polished, understandable systems over flashy throwaways
 
 <p>
-  <img src="./assets/section-stack-surface.svg" alt="Stack Surface section" width="100%" />
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/section-stack-surface-mobile.svg" />
+    <img src="./assets/section-stack-surface.svg" alt="Stack Surface section" width="100%" />
+  </picture>
 </p>
 
 > `languages` Python / C# / JavaScript / TypeScript / SQL  
@@ -91,7 +109,10 @@ Some of the work I want to be hired for is presented as case-study context in my
 > `interactive` Unity / custom tooling / gameplay systems / interface prototyping
 
 <p>
-  <img src="./assets/section-github-signals.svg" alt="GitHub Signals section" width="100%" />
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/section-github-signals-mobile.svg" />
+    <img src="./assets/section-github-signals.svg" alt="GitHub Signals section" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
@@ -117,7 +138,10 @@ Some of the work I want to be hired for is presented as case-study context in my
 </table>
 
 <p>
-  <img src="./assets/section-contact-channels.svg" alt="Contact Channels section" width="100%" />
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/section-contact-channels-mobile.svg" />
+    <img src="./assets/section-contact-channels.svg" alt="Contact Channels section" width="100%" />
+  </picture>
 </p>
 
 > `portfolio` [amedina.dev](https://amedina.dev)  
