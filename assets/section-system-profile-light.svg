@@ -1,0 +1,27 @@
+<svg width="1120" height="96" viewBox="0 0 1120 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1120" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7fbff" />
+      <stop offset="1" stop-color="#eef5fb" />
+    </linearGradient>
+    <linearGradient id="title" x1="24" y1="44" x2="420" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a" />
+      <stop offset="1" stop-color="#2FB67B" />
+    </linearGradient>
+    <linearGradient id="accentBar" x1="24" y1="0" x2="250" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00c978" />
+      <stop offset="1" stop-color="#00c978" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#0f172a" stroke-opacity="0.04" />
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1118" height="94" rx="20" fill="url(#bg)" stroke="#cfd8e3" />
+  <rect x="1" y="1" width="1118" height="94" rx="20" fill="url(#grid)" />
+  <rect x="24" y="14" width="126" height="24" rx="12" fill="#0d201a" stroke="#00c978" stroke-opacity="0.35" />
+  <circle cx="42" cy="26" r="3.5" fill="#00c978" />
+  <text x="54" y="31" fill="#1A9B67" font-family="'Cascadia Code', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.1">SECTION_01</text>
+  <text x="24" y="72" fill="url(#title)" font-family="'Segoe UI', Arial, sans-serif" font-size="31" font-weight="800" letter-spacing="1.4">SYSTEM_PROFILE</text>
+  <rect x="24" y="79" width="222" height="3" rx="1.5" fill="url(#accentBar)" />
+  <text x="1090" y="72" text-anchor="end" fill="#64748b" font-family="'Cascadia Code', Consolas, monospace" font-size="12">status: loaded</text>
+</svg>

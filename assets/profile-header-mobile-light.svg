@@ -1,0 +1,90 @@
+<svg width="720" height="760" viewBox="0 0 720 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7fbff" />
+      <stop offset="0.52" stop-color="#eef5ff" />
+      <stop offset="1" stop-color="#edf6ff" />
+    </linearGradient>
+    <linearGradient id="wash" x1="24" y1="24" x2="680" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00c978" stop-opacity="0.18" />
+      <stop offset="0.5" stop-color="#00c978" stop-opacity="0.04" />
+      <stop offset="1" stop-color="#2f81f7" stop-opacity="0.10" />
+    </linearGradient>
+    <linearGradient id="terminalBody" x1="0" y1="0" x2="0" y2="288" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" />
+      <stop offset="1" stop-color="#f5f9ff" />
+    </linearGradient>
+    <linearGradient id="terminalChrome" x1="0" y1="0" x2="0" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f3f7fc" />
+      <stop offset="1" stop-color="#eaf0f8" />
+    </linearGradient>
+    <linearGradient id="pillGreen" x1="40" y1="0" x2="340" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eafff4" />
+      <stop offset="1" stop-color="#d8f7e8" />
+    </linearGradient>
+    <linearGradient id="pillBlue" x1="380" y1="0" x2="680" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#edf5ff" />
+      <stop offset="1" stop-color="#dcebff" />
+    </linearGradient>
+    <linearGradient id="pillSlate" x1="160" y1="0" x2="560" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f4f7fb" />
+      <stop offset="1" stop-color="#e8edf5" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" stroke="#0f172a" stroke-opacity="0.055" stroke-width="1" />
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="panelShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#02040a" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <rect width="720" height="760" rx="28" fill="url(#bg)" />
+  <rect width="720" height="760" rx="28" fill="url(#grid)" />
+  <rect width="720" height="760" rx="28" fill="url(#wash)" />
+
+  <circle cx="558" cy="108" r="124" fill="#00c978" fill-opacity="0.06" filter="url(#softGlow)" />
+  <circle cx="622" cy="640" r="126" fill="#2f81f7" fill-opacity="0.08" filter="url(#softGlow)" />
+
+  <rect x="40" y="34" width="164" height="36" rx="18" fill="#00c978" fill-opacity="0.08" stroke="#00c978" stroke-opacity="0.35" />
+  <text x="122" y="57" text-anchor="middle" fill="#00c978" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2">SYSTEMS / AI</text>
+
+  <text x="40" y="146" fill="#0f172a" font-family="'Segoe UI', Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="1.2">ALBERTO</text>
+  <text x="40" y="228" fill="#00c978" font-family="'Segoe UI', Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="1.2">MEDINA</text>
+
+  <text x="40" y="286" fill="#223045" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600">FULL-STACK DEVELOPER / AUTOMATION ENGINEER</text>
+  <text x="40" y="320" fill="#223045" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600">AI WORKFLOW BUILDER</text>
+  <text x="40" y="362" fill="#64748b" font-family="'Segoe UI', Arial, sans-serif" font-size="24">logic first. built to be used.</text>
+
+  <rect x="40" y="390" width="300" height="42" rx="21" fill="url(#pillGreen)" stroke="#00c978" stroke-opacity="0.24" />
+  <text x="190" y="417" text-anchor="middle" fill="#0f8f63" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1">PYTHON / REACT / UNITY</text>
+
+  <rect x="380" y="390" width="300" height="42" rx="21" fill="url(#pillBlue)" stroke="#2f81f7" stroke-opacity="0.24" />
+  <text x="530" y="417" text-anchor="middle" fill="#2556a6" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1">PRODUCTS / AUTOMATION</text>
+
+  <rect x="160" y="446" width="400" height="42" rx="21" fill="url(#pillSlate)" stroke="#64748b" stroke-opacity="0.20" />
+  <text x="360" y="473" text-anchor="middle" fill="#334155" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1">REMOTE / SPAIN / GLOBAL</text>
+
+  <g transform="translate(40 514)" filter="url(#panelShadow)">
+    <rect x="0" y="12" width="640" height="206" rx="24" fill="url(#terminalBody)" />
+    <rect x="0" y="0" width="640" height="42" rx="24" fill="url(#terminalChrome)" />
+    <path d="M0 22C0 10.954 8.954 2 20 2H620C631.046 2 640 10.954 640 22V42H0V22Z" fill="url(#terminalChrome)" />
+    <path d="M0 42.5H640" stroke="#cbd5e1" />
+    <circle cx="30" cy="22" r="6" fill="#FF5F56" />
+    <circle cx="52" cy="22" r="6" fill="#FFBD2E" />
+    <circle cx="74" cy="22" r="6" fill="#27C93F" />
+    <text x="320" y="27" text-anchor="middle" fill="#64748b" font-family="'Cascadia Code', Consolas, monospace" font-size="15">portfolio-terminal</text>
+
+    <text x="28" y="84" fill="#00c978" font-family="'Cascadia Code', Consolas, monospace" font-size="18">&gt; systems online</text>
+    <text x="28" y="116" fill="#334155" font-family="'Cascadia Code', Consolas, monospace" font-size="17">&gt; portfolio: amedina.dev</text>
+    <text x="28" y="148" fill="#334155" font-family="'Cascadia Code', Consolas, monospace" font-size="17">&gt; focus: products, automation, ai</text>
+    <text x="28" y="180" fill="#2f81f7" font-family="'Cascadia Code', Consolas, monospace" font-size="17">&gt; handle: @Albjav12345</text>
+    <text x="28" y="212" fill="#334155" font-family="'Cascadia Code', Consolas, monospace" font-size="17">&gt; status: available for freelance</text>
+  </g>
+</svg>
