@@ -125,21 +125,27 @@ Some of the work I want to be hired for is presented as case-study context in my
   <tr>
     <td width="50%" align="center" valign="top">
       <br/>
-      <img
-        src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Albjav12345&theme=github_dark"
-        alt="GitHub stats"
-        width="92%"
-      />
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Albjav12345&theme=github" />
+        <img
+          src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Albjav12345&theme=github_dark"
+          alt="GitHub stats"
+          width="92%"
+        />
+      </picture>
       <br/>
       <br/>
     </td>
     <td width="50%" align="center" valign="top">
       <br/>
-      <img
-        src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Albjav12345&theme=github_dark"
-        alt="Top languages by commit"
-        width="92%"
-      />
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Albjav12345&theme=github" />
+        <img
+          src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Albjav12345&theme=github_dark"
+          alt="Top languages by commit"
+          width="92%"
+        />
+      </picture>
       <br/>
       <br/>
     </td>
@@ -147,11 +153,14 @@ Some of the work I want to be hired for is presented as case-study context in my
   <tr>
     <td colspan="2" align="center">
       <br/>
-      <img
-        src="https://github-readme-activity-graph.vercel.app/graph?username=Albjav12345&bg_color=0d1117&color=58a6ff&line=00ff9d&point=00ff9d&area=true&area_color=9e4c98&title_color=58a6ff&border_color=2e343b&radius=12&days=31&hide_border=false&custom_title=Alberto%27s%20Contribution%20Graph"
-        alt="GitHub contribution graph"
-        width="94%"
-      />
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Albjav12345&bg_color=f6f8fa&color=2f81f7&line=00c978&point=00c978&area=true&area_color=9ad9b8&title_color=2f81f7&border_color=d0d7de&radius=12&days=31&hide_border=false&custom_title=Alberto%27s%20Contribution%20Graph" />
+        <img
+          src="https://github-readme-activity-graph.vercel.app/graph?username=Albjav12345&bg_color=0d1117&color=58a6ff&line=00ff9d&point=00ff9d&area=true&area_color=9e4c98&title_color=58a6ff&border_color=2e343b&radius=12&days=31&hide_border=false&custom_title=Alberto%27s%20Contribution%20Graph"
+          alt="GitHub contribution graph"
+          width="94%"
+        />
+      </picture>
       <br/>
       <br/>
     </td>
