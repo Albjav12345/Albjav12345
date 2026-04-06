@@ -121,21 +121,12 @@ Some of the work I want to be hired for is presented as case-study context in my
   <code>signal_layer</code> code samples here / broader project context on amedina.dev
 </p>
 
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" height="360" align="center" valign="middle" bgcolor="#161b22">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Albjav12345&theme=github_dark" alt="GitHub stats" width="92%" />
-    </td>
-    <td width="50%" height="360" align="center" valign="middle" bgcolor="#161b22">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Albjav12345&theme=github_dark" alt="Top languages by commit" width="92%" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" height="438" align="center" valign="middle" bgcolor="#161b22">
-      <img src="./assets/github-signals-activity-graph.svg" alt="Contribution graph" width="96%" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <picture>
+    <source media="(max-width: 460px)" srcset="./assets/github-signals-panel-mobile.svg" />
+    <img src="./assets/github-signals-panel-desktop.svg" alt="GitHub signals panel" width="100%" />
+  </picture>
+</p>
 
 <p>
   <picture>
@@ -148,3 +139,4 @@ Some of the work I want to be hired for is presented as case-study context in my
 > `linkedin` [alberto-medina-dev](https://www.linkedin.com/in/alberto-medina-dev/)  
 > `upwork` [Alberto Medina](https://www.upwork.com/freelancers/~0177774c838e1e7798)  
 > `email` [amedina.amg.dev@gmail.com](mailto:amedina.amg.dev@gmail.com)
+
