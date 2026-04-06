@@ -1,6 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 640px)" srcset="./assets/profile-header-mobile.svg" />
+    <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="./assets/profile-header-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="./assets/profile-header-mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg" />
     <img src="./assets/profile-header.svg" alt="Alberto Medina profile header" width="100%" />
   </picture>
 </p>
@@ -34,7 +36,9 @@
 
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="./assets/section-system-profile-mobile.svg" />
+    <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="./assets/section-system-profile-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="./assets/section-system-profile-mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/section-system-profile-light.svg" />
     <img src="./assets/section-system-profile.svg" alt="System Profile section" width="100%" />
   </picture>
 </p>
@@ -50,7 +54,9 @@ That same mindset now drives my work in full-stack development, automation, and 
 
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="./assets/section-build-surface-mobile.svg" />
+    <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="./assets/section-build-surface-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="./assets/section-build-surface-mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/section-build-surface-light.svg" />
     <img src="./assets/section-build-surface.svg" alt="Build Surface section" width="100%" />
   </picture>
 </p>
@@ -62,7 +68,9 @@ That same mindset now drives my work in full-stack development, automation, and 
 
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="./assets/section-selected-systems-mobile.svg" />
+    <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="./assets/section-selected-systems-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="./assets/section-selected-systems-mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/section-selected-systems-light.svg" />
     <img src="./assets/section-selected-systems.svg" alt="Selected Systems section" width="100%" />
   </picture>
 </p>
@@ -85,7 +93,9 @@ Some of the work I want to be hired for is presented as case-study context in my
 
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="./assets/section-engineering-style-mobile.svg" />
+    <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="./assets/section-engineering-style-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="./assets/section-engineering-style-mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/section-engineering-style-light.svg" />
     <img src="./assets/section-engineering-style.svg" alt="Engineering Style section" width="100%" />
   </picture>
 </p>
@@ -97,7 +107,9 @@ Some of the work I want to be hired for is presented as case-study context in my
 
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="./assets/section-stack-surface-mobile.svg" />
+    <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="./assets/section-stack-surface-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="./assets/section-stack-surface-mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/section-stack-surface-light.svg" />
     <img src="./assets/section-stack-surface.svg" alt="Stack Surface section" width="100%" />
   </picture>
 </p>
@@ -110,7 +122,9 @@ Some of the work I want to be hired for is presented as case-study context in my
 
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="./assets/section-github-signals-mobile.svg" />
+    <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="./assets/section-github-signals-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="./assets/section-github-signals-mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/section-github-signals-light.svg" />
     <img src="./assets/section-github-signals.svg" alt="GitHub Signals section" width="100%" />
   </picture>
 </p>
@@ -160,7 +174,9 @@ Some of the work I want to be hired for is presented as case-study context in my
 
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="./assets/section-contact-channels-mobile.svg" />
+    <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="./assets/section-contact-channels-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="./assets/section-contact-channels-mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/section-contact-channels-light.svg" />
     <img src="./assets/section-contact-channels.svg" alt="Contact Channels section" width="100%" />
   </picture>
 </p>
