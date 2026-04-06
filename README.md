@@ -87,7 +87,7 @@ Workflow that combines image processing, OCR, Twitch API checks, and live monito
 `unity / firebase / gameplay systems`  
 Compact Unity build that mixes gameplay, API usage, Firebase integration, and persistence in a way that shows practical engineering beyond a basic clone.
 
-**[Portfolio Case Studies](https://amedina.dev)**  
+**[Portfolio Case Studies](https://amedina.dev/projects)**  
 `ai inbox triage / booking systems / custom unity interfaces`  
 Some of the work I want to be hired for is presented as case-study context in my portfolio rather than as a public repository.
 
